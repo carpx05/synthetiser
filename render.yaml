@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: synthetiser-backend
+    env: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: MODEL_NAME
+        value: ayushmishra/results
+      - key: GRADIO_BASE_URL
+        value: https://ayushmishra-synthetiser.hf.space/gradio_api/call/predict
