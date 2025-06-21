@@ -13,4 +13,4 @@ short_description: french text summarizer
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 ### ❗❗❗Note
-Huggingface Spaces create a seperate repository. Push the follwoing files in the created repo. This directory is not connected to any workflow and is just for reference.
+Huggingface Spaces create a seperate repository. Push the following files in the created repo. This directory is not connected to any workflow and is just for reference.
