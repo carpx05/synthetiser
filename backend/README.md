@@ -8,7 +8,7 @@ Summarizes a given French input text using a Hugging Face-hosted model.
 
 ### Request:
 
-URL: https://synthetiser.onrender.com/summarize
+URL: https://project_name.onrender.com/summarize
 
 Method: POST
 
@@ -31,7 +31,7 @@ Body:
             "summary_words": 15,
             "compression_ratio": 0.247,
             "latency_ms": 6892,
-            "model": "ayushmishra/results",
+            "model": "username/model_name",
             "timestamp": "2025-06-22T20:42:31.004Z"
         }
     }
